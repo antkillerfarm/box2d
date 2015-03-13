@@ -102,6 +102,11 @@ TestEntry g_testEntries[] =
 	{"Vertical Stack", VerticalStack::Create},
 	{"SphereStack", SphereStack::Create},
 	{"Revolute", Revolute::Create},
+	{NULL, NULL}
+};
+
+TestEntry g_testEntries1[] =
+{
 	{"Pulleys", Pulleys::Create},
 	{"Polygon Shapes", PolyShapes::Create},
 	{"Web", Web::Create},
